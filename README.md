@@ -6,10 +6,10 @@ End-to-End Data Engineering project on Databricks
 🏭 The Business Problem (FMCG Domain):
 I simulated a real-world industry scenario where a parent company had acquired a smaller startup. The challenge was to consolidate messy, fragmented data from CSV files and cloud drives into a single, reliable analytics platform, apply transformations and make it BI ready.
 
-⚙️ I built an end-to-end ETL pipeline on Databricks, covering:
+⚙️ I built an end-to-end ETL pipeline on Databricks, covering:<br>
 ‣ Ingestion<br>
 ‣ Data Modeling using Star Schema.<br>
-‣Transforming data across medallion layers (Bronze 🥉→ Silver 🥈→ Gold🥇), thus ensuring clean, reliable, analytics-ready data at every layer<br>
+‣ Transforming data across medallion layers (Bronze 🥉→ Silver 🥈→ Gold🥇), thus ensuring clean, reliable, analytics-ready data at every layer.<br>
 ‣ Historical + Incremental data loads built for both legacy systems and fast-growing startup data.<br>
 ‣ Resolved real schema mismatches between legacy ERP and startup data sources.<br>
 ‣ Built scalable pipelines that don't break when data volume grows<br>
